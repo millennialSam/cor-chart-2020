@@ -70,4 +70,24 @@ div.info-para {
         display: block;
         margin: auto;
     }
+    .info-para {
+        font-size: 1.1em;
+    }
+    section {
+        padding-top: 20px;
+    }
+}
+
+.small-screen-button {
+    display: none;
+}
+
+@media (max-width: 399px) {
+    .download-button {
+        display: none;
+    }
+    .small-screen-button {
+        display: block;
+        text-align: center;
+    }
 }
